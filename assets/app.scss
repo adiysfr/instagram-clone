@@ -1,0 +1,15 @@
+@tailwind utilities;
+@tailwind components;
+
+@layer components{
+  .btn{
+    &__error{
+      @apply mt-2 p-5 text-white bg-blue-500 duration-500 hover:scale-105 hover:shadow-2xl
+    }
+  }
+  .input{
+    &-control{
+      @apply p-1 border-2 border-solid border-black
+    }
+  }
+}
